@@ -5,7 +5,7 @@
 ## Project title
 
 **Sources**
-* []()
+* [NY Times](https://alex.github.io/nyt-2020-election-scraper/battleground-state-changes.html)
 
 **EBU links**
 * []()
