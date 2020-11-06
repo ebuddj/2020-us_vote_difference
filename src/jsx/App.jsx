@@ -25,6 +25,7 @@ function getHashValue(key) {
 }
 
 const data_file = getHashValue('state') ? getHashValue('state') : 'Georgia';
+const speed = getHashValue('speed') ? getHashValue('speed') : 100;
 
 class App extends Component {
   constructor(props) {
@@ -172,7 +173,7 @@ class App extends Component {
       chart.data.datasets[0].data.push(poll_value_r);
       chart.data.datasets[1].data.push(poll_value_d);
       chart.update(0);
-    }, 100);
+    }, parseInt(speed));
   }
   // shouldComponentUpdate(nextProps, nextState) {}
   // static getDerivedStateFromProps(props, state) {}
