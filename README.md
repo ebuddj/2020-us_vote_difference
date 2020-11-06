@@ -16,7 +16,7 @@ It is also possible to adjust the speed with speed parameter `speed=500` defined
 * [NY Times](https://alex.github.io/nyt-2020-election-scraper/battleground-state-changes.html)
 
 **EBU links**
-* []()
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/a531484559d5b05c6aaff12933cef640/2020_21050371)
 
 **Used by**
 * []()
