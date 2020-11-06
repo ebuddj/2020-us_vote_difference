@@ -127,12 +127,13 @@ class App extends Component {
               display:false
             },
             ticks:{
-              autoSkip:true,
+              autoSkip:false,
               fontColor:'#000',
               fontSize:28,
               fontStyle:'bold',
               maxRotation:0,
               minRotation:0,
+              padding:30,
               z:9999
             },
             stacked:false
@@ -142,8 +143,9 @@ class App extends Component {
             stacked:false,
             ticks:{
               fontColor:'#000',
-              fontSize:14,
+              fontSize:28,
               fontStyle:'bold',
+              padding:30,
               suggestedMax:110000,
               suggestedMin:-110000
             }
