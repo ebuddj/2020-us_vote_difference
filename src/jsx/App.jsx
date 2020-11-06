@@ -19,6 +19,13 @@ else {
 // https://abbreviations.yourdictionary.com/articles/standard-month-and-days-of-the-week-abbreviations.html
 const months = ['Jan.','Feb.','March 2020','April','May','June','July','August','Septemper','October','November','December'];
 
+function getHashValue(key) {
+  let matches = location.hash.match(new RegExp(key+'=([^&]*)'));
+  return matches ? matches[1] : null;
+}
+
+const data_file = getHashValue('state') ? getHashValue('state') : 'Georgia';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -39,7 +46,7 @@ class App extends Component {
     clearInterval(interval);
   }
   getData() {
-    d3.csv('./data/data.csv').then((data) => {
+    d3.csv('./data/' + data_file.toLowerCase() + '.csv').then((data) => {
       let poll_data_r = [];
       let poll_data_d = [];
       let chart_data = {
@@ -173,7 +180,7 @@ class App extends Component {
   render() {
     return (
       <div className={style.app}>
-        <h3>Georgia</h3>
+        <h3>{data_file}</h3>
         <div className={style.chart_container}>
           <canvas id={style.chart} ref={this.chartRef}></canvas>
         </div>
