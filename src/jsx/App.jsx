@@ -172,7 +172,7 @@ class App extends Component {
       chart.data.datasets[0].data.push(poll_value_r);
       chart.data.datasets[1].data.push(poll_value_d);
       chart.update(0);
-    }, 20);
+    }, 100);
   }
   // shouldComponentUpdate(nextProps, nextState) {}
   // static getDerivedStateFromProps(props, state) {}
