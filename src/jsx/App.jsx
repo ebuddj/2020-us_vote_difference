@@ -46,7 +46,7 @@ class App extends Component {
     clearInterval(interval);
   }
   getData() {
-    d3.csv('./data/' + data_file.toLowerCase() + '.csv').then((data) => {
+    d3.csv('./data/' + data_file.toLowerCase() + '.csv?v=1').then((data) => {
       let poll_data_r = [];
       let poll_data_d = [];
       let chart_data = {
