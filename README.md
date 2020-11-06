@@ -2,7 +2,15 @@
 
 **Live demo** https://ebuddj.github.io/2020-us_vote_difference/
 
-## Project title
+## Vote difference in key battleground states
+
+* [Arizona](https://ebuddj.github.io/2020-us_vote_difference/#state=Arizona)
+* [Pennsylvania](https://ebuddj.github.io/2020-us_vote_difference/#state=Pennsylvania)
+* [Georgia](https://ebuddj.github.io/2020-us_vote_difference/#state=Georgia)
+
+It is also possible to adjust the speed with speed parameter `speed=500` defined in milliseconds.
+
+* [Georgia](https://ebuddj.github.io/2020-us_vote_difference/#state=Georgia&speed=500)
 
 **Sources**
 * [NY Times](https://alex.github.io/nyt-2020-election-scraper/battleground-state-changes.html)
