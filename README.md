@@ -20,6 +20,7 @@ It is also possible to adjust the speed with speed parameter `speed=500` defined
 
 **Used by**
 * RTCG/Montenegro on TVCG Sat
+* TV2/Denmark as background data
 
 ## How to use
 
