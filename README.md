@@ -2,7 +2,7 @@
 
 **Live demo** https://ebuddj.github.io/2020-us_vote_difference/
 
-## Vote difference in key battleground states
+## Vote Difference In Key Battleground States (EBU)
 
 * [Arizona](https://ebuddj.github.io/2020-us_vote_difference/#state=Arizona)
 * [Pennsylvania](https://ebuddj.github.io/2020-us_vote_difference/#state=Pennsylvania)
